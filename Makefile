@@ -2,9 +2,9 @@
 ####################### Makefile Template ##############################
 ########################################################################
 # Student settings
-NAME = YOURNAME
-SID = YOURSID
-EMAIL = YOURUTAEMAIL
+NAME = Joanna Jose
+SID = 1002112140
+EMAIL = jkj2140@mavs.uta.edu
 SEMESTER = SPRING2025
 PROJECT=PROJ03
  

@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link';
 import { FaHome, FaSearch } from 'react-icons/fa';
 import { TbMushroom } from "react-icons/tb";
@@ -24,3 +25,4 @@ export default function NavBar() {
     </div>
   );
 }
+

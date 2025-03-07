@@ -1,8 +1,42 @@
 // data/development.js
-const dummyData = {
-    message: "This is dummy data from a config file",
-    status: "success",
-};
+export const mushrooms = [
+    {
+        id:1,
+        image: "/images/deathcap.jpg",
+        name: 'Death Cap',
+        warning: 'Highly toxic',
+        tags:["Favourites"],
+        regions:["North America"],
+        categories:["Poisonous"],
+    },
+    {
+        id:2,
+        image: 'images/paddy straw.jpg',
+        name: 'Paddy Straw',
+        warning: 'Caution advised',
+        
+    },
+    {
+        id:3,
+        image: 'images/destroying angel.jpg',
+        name: 'Destroying Angel',
+        warning: 'Extremely toxic'
+    },
+    {
+        id:4,
+        image: '/images/false death cap.jpg',
+        name: 'False Death Cap',
+        warning: 'Highly toxic'
+    },
+    {
+        id:5,
+        image: 'images/puffball.jpg',
+        name: 'Puffball',
+        warning: 'Edible'
+    }
+];
+
+
 
 const warningMessage = {
     header: "warning",
